@@ -1,0 +1,81 @@
+body{
+background: linear-gradient(to left, #2980b9, #6dd5fa, #ffffff);
+}
+#title{
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+}
+.name{
+  font-family:limelight;
+  font-size:70px;
+  font-weight:bold;
+}
+.line{
+  font-size:30px;
+  font-family:teko;
+}
+#image-style {
+  display: block;
+  max-width: 200px;
+  height: auto;
+  margin: auto;
+}
+#img-div{
+  display:flex;
+  flex-direction:column;
+  flex-shrink:2;
+  padding:50px;
+  margin:15px 30px;
+  background:rgba(200, 54, 54, 0.1);
+}
+#img-caption{
+  padding-top:5px;
+  text-align:center;
+  margin-top:10px;
+  font-weight:bold;
+  font-family:Inconsolata;
+  font-size:15px;
+}
+.info-container{
+  display:flex;
+  flex-direction:column;
+  margin:10px 150px 20px 150px;
+  text-align:justify;
+  font-family:Inconsolata;
+  font-size:16px;
+  font-weight:bold;
+}
+.years-list{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  border:1px solid rgba(255,255,255,0.4);
+  padding:10px;
+  font-weight:bold;
+  
+}
+.years-list>ul, .years-list>ul>li{
+  margin-top:10px;
+}
+.end-line{
+  text-align:center;
+  font-family:Squada One;
+  font-size:30px;
+}
+.jumbotron{
+  border-radius:2em;
+}
+img{
+  border-radius:2em;
+}
+#tribute-link{
+  colour:#5D94EF;
+}
+.lnk{
+  transition: transform .2s;
+}
+.lnk:hover{
+  transform:scale(0.5);
+  text-decoration:none;
+}
